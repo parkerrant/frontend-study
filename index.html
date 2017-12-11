@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+	<!-- <header></header> -->
+	<!-- <nav></nav> -->
+	<!-- <article></article> -->
+
+	<div class="fs-sidebar">
+		<ul class="fs-sidebar-side">
+			<li class="fs-sidebar-side-article" id="recent">
+				<i class="fa fa-clock-o" aria-hidden="true"></i>
+				<p class="fs-sidebar-side-article-content">Recent</p>
+			</li>
+			<li class="fs-sidebar-side-article" id="desktop">
+				<i class="fa fa-desktop" aria-hidden="true"></i>
+				<p class="fs-sidebar-side-article-content">Desktop</p>
+			</li>
+			<li class="fs-sidebar-side-article" id="downloads">
+				<i class="fa fa-download" aria-hidden="true"></i>
+				<p class="fs-sidebar-side-article-content">Downloads</p>
+			</li>
+			
+			<li class="fs-sidebar-side-divide"></li>
+
+			<li class="fs-sidebar-side-article" id="documents">
+				<i class="fa fa-folder-open" aria-hidden="true"></i>
+				<p class="fs-sidebar-side-article-content">Documents</p>
+			</li>
+			<li class="fs-sidebar-side-article">
+				<i class="fa fa-music" aria-hidden="true" id="music"></i>
+				<p class="fs-sidebar-side-article-content">Music</p>
+			</li>
+		</ul>
+		
+		<ul class="fs-sidebar-nav">
+			<li class="fs-sidebar-nav-article">
+				<i class="fa fa-folder-open" aria-hidden="true"></i>
+				<p>Create</p>
+			</li>
+			<li class="fs-sidebar-nav-article">
+				<i class="fa fa-folder-open" aria-hidden="true"></i>
+				<p>Sync</p>
+			</li>
+
+			<li class="fs-sidebar-nav-divide"></li> 
+
+			<li class="fs-sidebar-nav-article">
+				<i class="fa fa-upload" aria-hidden="true"></i>
+				<p>Upload</p>
+			</li>
+			<li class="fs-sidebar-nav-article">
+				<i class="fa fa-download" aria-hidden="true"></i>
+				<p>Download</p>
+			</li>
+		</ul>
+		
+		<div class="fs-sidebar-content">
+			<table>
+				<thead>
+					<th class="fileicon"></th>
+					<th class="filename">Name</th>
+					<th>Size</th>
+					<th>Date</th>
+				</thead>
+
+				<template id="fs-sidebar-content-template">
+					<tr>
+						<td class="fileIcon"><i class="fa fa-file-word-o" aria-hidden="true"></i></td>
+						<td class="fileName">Letter 1.docx</td>
+						<td class="fileSize">15,233</td>
+						<td class="fileDate">14-03-2014 12:40</td>
+					</tr>
+				</template>
+
+				<!-- <tr>
+					<td class="fileicon"><i class="fa fa-file-word-o" aria-hidden="true"></i></td>
+					<td class="filename">Letter 1.docx</td>
+					<td>15,233</td>
+					<td>14-03-2014 12:40</td>
+				</tr>
+				<tr>
+					<td class="fileicon"><i class="fa fa-file-word-o" aria-hidden="true"></i></td>
+					<td class="filename">Letter 2.docx</td>
+					<td>5,114</td>
+					<td>21-08-2012 18:49</td>
+				</tr>
+				<tr>
+					<td class="fileicon"><i class="fa fa-file-word-o" aria-hidden="true"></i></td>
+					<td class="filename">Letter 3.docx</td>
+					<td>11,375</td>
+					<td>23-07-2012 13:58</td>
+				</tr>
+				<tr>
+					<td class="fileicon"><i class="fa fa-file-excel-o" aria-hidden="true"></i></td>
+					<td class="filename">Salary.xlsx</td>
+					<td>62,120</td>
+					<td>23-07-2012 11:57</td>
+				</tr>
+				<tr>
+					<td class="fileicon"><i class="fa fa-file-excel-o" aria-hidden="true"></i></td>
+					<td class="filename">My Calender.xlsx</td>
+					<td>64,520</td>
+					<td>25-08-2012 11:57</td>
+				</tr> -->					
+			</table>
+		</div>
+	</div>
+
+
+<script type="text/javascript" src="js/sidebar.js"></script>
+
+</body>
+</html>
