@@ -65,7 +65,7 @@
 		</ul>
 		
 		<div class="fs-sidebar-content">
-			<table>
+			<table id ="fs-sidebar-content-template-area">
 				<thead>
 					<th class="fileicon"></th>
 					<th class="filename">Name</th>
@@ -73,49 +73,21 @@
 					<th>Date</th>
 				</thead>
 
-				<template id="fs-sidebar-content-template">
-					<tr>
-						<td class="fileIcon"><i class="fa fa-file-word-o" aria-hidden="true"></i></td>
-						<td class="fileName">Letter 1.docx</td>
-						<td class="fileSize">15,233</td>
-						<td class="fileDate">14-03-2014 12:40</td>
-					</tr>
-				</template>
 
-				<!-- <tr>
-					<td class="fileicon"><i class="fa fa-file-word-o" aria-hidden="true"></i></td>
-					<td class="filename">Letter 1.docx</td>
-					<td>15,233</td>
-					<td>14-03-2014 12:40</td>
-				</tr>
-				<tr>
-					<td class="fileicon"><i class="fa fa-file-word-o" aria-hidden="true"></i></td>
-					<td class="filename">Letter 2.docx</td>
-					<td>5,114</td>
-					<td>21-08-2012 18:49</td>
-				</tr>
-				<tr>
-					<td class="fileicon"><i class="fa fa-file-word-o" aria-hidden="true"></i></td>
-					<td class="filename">Letter 3.docx</td>
-					<td>11,375</td>
-					<td>23-07-2012 13:58</td>
-				</tr>
-				<tr>
-					<td class="fileicon"><i class="fa fa-file-excel-o" aria-hidden="true"></i></td>
-					<td class="filename">Salary.xlsx</td>
-					<td>62,120</td>
-					<td>23-07-2012 11:57</td>
-				</tr>
-				<tr>
-					<td class="fileicon"><i class="fa fa-file-excel-o" aria-hidden="true"></i></td>
-					<td class="filename">My Calender.xlsx</td>
-					<td>64,520</td>
-					<td>25-08-2012 11:57</td>
-				</tr> -->					
+					
 			</table>
 		</div>
 	</div>
 
+
+	<template id="fs-sidebar-content-template">
+		<tr>
+			<td class="fileIcon"><i aria-hidden="true"></i></td>
+			<td class="fileName"></td>
+			<td class="fileSize"></td>
+			<td class="fileDate"></td>
+		</tr>
+	</template>
 
 <script type="text/javascript" src="js/sidebar.js"></script>
 

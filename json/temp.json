@@ -1,7 +1,8 @@
 {"fileList":[
-	{"fileName":"Letter 1.docx", "fileType":"word", "fileSize":"15,233", "fileDate":"14-03-2014 12:40"},
-	{"fileName":"Letter 2.docx", "fileType":"word", "fileSize":"5,114", "fileDate":"21-08-2012 18:49"},
-	{"fileName":"Letter 3.docx", "fileType":"word", "fileSize":"11,375", "fileDate":"23-07-2012 13:58"},
-	{"fileName":"Salary.xlsx", "fileType":"excel", "fileSize":"62,120", "fileDate":"23-07-2012 11:57"},
-	{"fileName":"My Calender.xlsx", "fileType":"excel", "fileSize":"64,520", "fileDate":"25-08-2012 11:57"}
-]}
+		{"fileName":"Letter 1.docx", "fileType":"word", "fileSize":"15,233", "fileDate":"14-03-2014 12:40"},
+		{"fileName":"Letter 2.docx", "fileType":"word", "fileSize":"5,114", "fileDate":"21-08-2012 18:49"},
+		{"fileName":"Letter 3.docx", "fileType":"word", "fileSize":"11,375", "fileDate":"23-07-2012 13:58"},
+		{"fileName":"Salary.xlsx", "fileType":"excel", "fileSize":"62,120", "fileDate":"23-07-2012 11:57"},
+		{"fileName":"My Calender.xlsx", "fileType":"excel", "fileSize":"64,520", "fileDate":"25-08-2012 11:57"}
+	]
+}
